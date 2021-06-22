@@ -11,10 +11,10 @@
     <link rel="shortcut icon" href="imagenes/new.png" type="image/x-icon">
     <title>Webian!</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-offset="59" >
   <!--header-->  
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="imagenes/circulo.png" alt="">
@@ -32,7 +32,7 @@
             </li>
           
             <li class="nav-item">
-              <a class="nav-link" href="https://es.aptoide.com/">Apps</a>
+              <a class="nav-link" href="#card">Apps</a>
             </li>
           
             <li class="nav-item">
@@ -79,15 +79,53 @@
   </div>
 </main>
   <!--/carrusel-->
-  <!--fondo-->
-  <section id="place-time">
-    <div class="container-fluid bg-dark text-light mb-0">
-     <div class="row">
-       <div class="col-12 col-lg-12 pl-0 pr-0 text-center">
-         HOLA MUNDO
-         <img class="img-fluid" src="" alt="">
-       </div>
-  <!--/fondo-->
+  <!--card-app-->
+  <section id="card" class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <small>Aplicaciones Mod</small>
+          <h2>ANDROID</h2>
+        </div>
+       <div class="row">
+         <div class="col-lg-4 col-md-6 mb-4 ">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/spotify.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spotify Mod</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Descargar</a>
+            </div>
+          </div>
+         </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="imagenes/youtube.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Youtube Mod</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Descargar</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/instagram.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Instagram Mod</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+       </div>  
+       
+        </div>
+     </div> 
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/card-app-->
     <!--footer-->
     <footer id="footer" class="pb-4 pt-4 ">
       <div class="container">
